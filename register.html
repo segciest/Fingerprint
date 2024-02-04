@@ -38,13 +38,28 @@
     <!-- Body -->
     <h2 class="text-center">Register</h2>
     <section class="body">
-      <form action="" id="formQL">
+      <form
+        action="https://script.google.com/macros/s/AKfycbwKvKhSzeGcp3rhjTh9cMWBTGHO9V1b43fd21gsNNnjQybonApBX2qLaAmpdz-A-W7M9w/exec?action=Register"
+        method="post"
+        id="formQL"
+      >
+        <div class="mb-3 mx-5">
+          <label for="userInput" class="form-label">First Name</label>
+          <input
+            type="text"
+            class="form-control"
+            name="firstName"
+            id="userInput"
+            aria-describedby="helpId"
+            placeholder="enter your first name"
+          />
+        </div>
         <div class="mb-3 mx-5">
           <label for="userInput" class="form-label">Username</label>
           <input
             type="text"
             class="form-control"
-            name=""
+            name="username"
             id="userInput"
             aria-describedby="helpId"
             placeholder="username"
@@ -55,7 +70,7 @@
           <input
             type="text"
             class="form-control"
-            name=""
+            name="password"
             id="passwordInput"
             aria-describedby="helpId"
             placeholder="password"
@@ -66,25 +81,25 @@
           <input
             type="text"
             class="form-control"
-            name=""
+            name="email"
             id="emailInput"
             aria-describedby="helpId"
             placeholder="email"
           />
         </div>
+        <div class="signUp text-center">
+          <a href="./index.html" class="signUpText">Login here</a>
+        </div>
+        <div class="buttonLogin text-center my-5">
+          <input
+            name=""
+            id="loginButton"
+            class="btn btn-primary"
+            type="submit"
+            value="Register"
+          />
+        </div>
       </form>
-      <div class="signUp text-center">
-        <a href="./index.html" class="signUpText">Login here</a>
-      </div>
-      <div class="buttonLogin text-center my-5">
-        <input
-          name=""
-          id="loginButton"
-          class="btn btn-primary"
-          type="button"
-          value="Register"
-        />
-      </div>
     </section>
 
     <!-- Footer -->
